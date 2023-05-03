@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    width: 40vw;
+    height: 27vh;
+    background-color: rgba(0, 0, 0, 0.26);
+    margin: 3vh;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.figuras{
+    width: 9vw;
+    height: 24vh;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+.container2{
+    width: 40vw;
+    height: 14vh;
+    background-color: rgba(0, 0, 0, 0.26);
+    margin-left: 3vh;
+    position: relative;
+    border-radius: 10px;
+    padding-top: 2px;
+    margin-left: 30vw;
+    margin-bottom: 10px;
+
+}
+
+.container3{
+    width: 40vw;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    margin-left: 30vw;
+    
+}
+#pensamento{
+    background-color: rgba(228, 19, 19, 0.26);
+    width: 39vw;
+    height: 5vh;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+#video,
+#foto,
+#sentimento {
+    background-color: rgba(228, 19, 19, 0.26);
+    width: 17vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+#video{
+    background-color: rgba(228, 19, 19, 0.26);
+}
+#foto{
+    background-color: rgba(228, 19, 19, 0.26);
+    
+}
+#sentimento{
+    background-color: rgba(228, 19, 19, 0.26);
+   
+}
+#figura1{
+    background-color: rgb(216, 200, 55);
+}
+#figura2{
+    background-color: rgb(58, 55, 216);
+}
+#figura3{
+    background-color: rgb(221, 48, 155);
+}
+#figura4{
+    background-color: rgb(194, 56, 56);
+}
+
